@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 50b45beab47a3e837da5504f17bc00806940f2b9
+  revision: 789d6cf1a923a99ea0add3dd0814a22b7cc7860a
   branch: 7-2-stable
   specs:
     actioncable (7.2.2.1)
@@ -147,7 +147,7 @@ GEM
       activesupport (>= 5.0.0)
     json (2.7.5)
     language_server-protocol (3.17.0.3)
-    logger (1.6.3)
+    logger (1.6.4)
     loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
