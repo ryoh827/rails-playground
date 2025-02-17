@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 37badfc4895e4afc23f1fa3f87c7ea623cd42061
+  revision: a40b1973731784c7fb24fdb7068acabe12a472d2
   branch: 7-2-stable
   specs:
     actioncable (7.2.2.1)
@@ -275,7 +275,7 @@ GEM
     sqlite3 (2.5.0-x86_64-linux-gnu)
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
-    stringio (3.1.2)
+    stringio (3.1.3)
     thor (1.3.2)
     timeout (0.4.3)
     turbo-rails (2.0.11)
