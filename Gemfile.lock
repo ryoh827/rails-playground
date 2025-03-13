@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 058589ac9b6425e7c710dee31923712ce3618575
+  revision: 7fef4ae61ea80786b6f02f2f96b85d3eb72b510c
   branch: 7-2-stable
   specs:
     actioncable (7.2.2.1)
@@ -162,7 +162,7 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     mini_portile2 (2.8.8)
-    minitest (5.25.4)
+    minitest (5.25.5)
     msgpack (1.7.3)
     net-imap (0.5.6)
       date
@@ -201,7 +201,7 @@ GEM
     puma (6.6.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.10)
+    rack (3.1.12)
     rack-session (2.1.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -278,9 +278,9 @@ GEM
     stringio (3.1.5)
     thor (1.3.2)
     timeout (0.4.3)
-    turbo-rails (2.0.11)
-      actionpack (>= 6.0.0)
-      railties (>= 6.0.0)
+    turbo-rails (2.0.13)
+      actionpack (>= 7.1.0)
+      railties (>= 7.1.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.1.4)
