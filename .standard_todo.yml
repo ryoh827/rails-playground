@@ -1,0 +1,18 @@
+# Auto generated files with errors to ignore.
+# Remove from this list as you refactor files.
+---
+ignore:
+- Gemfile:
+  - Layout/SpaceInsidePercentLiteralDelimiters
+- config/environments/development.rb:
+  - Layout/SpaceInsideHashLiteralBraces
+- config/environments/production.rb:
+  - Style/GlobalStdStream
+  - Layout/ExtraSpacing
+  - Layout/SpaceInsideArrayLiteralBrackets
+- config/environments/test.rb:
+  - Layout/SpaceInsideHashLiteralBraces
+- config/routes.rb:
+  - Style/HashSyntax
+- test/application_system_test_case.rb:
+  - Layout/SpaceInsideArrayLiteralBrackets
