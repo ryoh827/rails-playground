@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 1d8b402cd608462cfc0abd4d53ddab40f7a65af4
+  revision: ccca65beee553420f642d517142a251220c3e48a
   branch: 7-2-stable
   specs:
     actioncable (7.2.2.1)
@@ -26,6 +26,7 @@ GIT
     actionpack (7.2.2.1)
       actionview (= 7.2.2.1)
       activesupport (= 7.2.2.1)
+      cgi
       nokogiri (>= 1.8.5)
       racc
       rack (>= 2.2.4, < 3.2)
@@ -44,6 +45,7 @@ GIT
     actionview (7.2.2.1)
       activesupport (= 7.2.2.1)
       builder (~> 3.1)
+      cgi
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
@@ -91,6 +93,7 @@ GIT
     railties (7.2.2.1)
       actionpack (= 7.2.2.1)
       activesupport (= 7.2.2.1)
+      cgi
       irb (~> 1.13)
       rackup (>= 1.0.0)
       rake (>= 12.2)
@@ -121,6 +124,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+    cgi (0.4.2)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.3)
     crass (1.0.6)
@@ -195,7 +199,7 @@ GEM
       prettyprint
     prettyprint (0.2.0)
     prism (1.4.0)
-    psych (5.2.4)
+    psych (5.2.5)
       date
       stringio
     public_suffix (6.0.1)
@@ -203,7 +207,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.14)
-    rack-session (2.1.0)
+    rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
     rack-test (2.2.0)
