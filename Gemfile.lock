@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 4dfbe50e726f62dfb36646b7598b12c638292090
+  revision: 77b1a493cca6b3491e0bdcef2c30fe95d06dea88
   branch: 7-2-stable
   specs:
     actioncable (7.2.2.1)
@@ -132,7 +132,7 @@ GEM
     debug (1.10.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
-    drb (2.2.1)
+    drb (2.2.3)
     erb (5.0.1)
     erubi (1.13.1)
     globalid (1.2.1)
@@ -303,7 +303,7 @@ GEM
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
     websocket (1.2.11)
-    websocket-driver (0.7.7)
+    websocket-driver (0.8.0)
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
